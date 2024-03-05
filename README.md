@@ -29,17 +29,17 @@ Open-Source Development: Fosters collaboration and allows community contribution
 ## Getting Started:
 
 **Clone the repository:**  
-> <sup>Bash</sup>  
+> <sup><sub>Bash</sub></sup>  
   git clone https://github.com/your-username/cckb.git  
   
 **Install dependencies:**  
   
-> <sup>Bash</sup>   
+> <sup><sub>Bash</sub></sup>   
   cd cckb  
   npm install
   
 **Run the development server:**  
-> <sup>Bash</sup>  
+> <sup><sub>Bash</sub></sup>  
   npm start  
 
 ## Contributing:  
