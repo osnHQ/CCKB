@@ -6,7 +6,7 @@ EXCLUDED_BRANCH="dev"
 
 BRANCH_NAME=$(git symbolic-ref --short HEAD 2>/dev/null)
 
-EXPECTED_PATTERN="^(feature|bugfix|hotfix|refactor|docs)-.*"
+EXPECTED_PATTERN="^(feature|bugfix|hotfix|refactor|docs|setup)/.*"
 
 if [ "$BRANCH_NAME" = "$EXCLUDED_BRANCH" ]; then
     echo "Skipping pre-commit hook on branch: $EXCLUDED_BRANCH"
